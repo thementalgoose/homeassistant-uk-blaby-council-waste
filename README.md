@@ -2,6 +2,9 @@
 
 Home Assistant custom integration for Blaby District Council waste collection dates.
 
+> [!NOTE]
+> This is an unofficial community integration and is not affiliated with, endorsed by, or associated with Blaby District Council in any way.
+
 This integration looks up an address from a postcode, stores the selected property in Home Assistant, and exposes upcoming bin collection dates as sensor entities.
 
 ![UK Blaby Council Waste logo](assets/logo.png)
