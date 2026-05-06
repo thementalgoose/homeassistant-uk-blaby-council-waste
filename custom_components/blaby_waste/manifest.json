@@ -1,0 +1,10 @@
+{
+  "domain": "blaby_waste",
+  "name": "UK Blaby Council Waste",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://my.blaby.gov.uk/collections",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}

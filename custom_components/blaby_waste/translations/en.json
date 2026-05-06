@@ -1,0 +1,50 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "UK Blaby Council Waste",
+        "description": "Enter your postcode to look up your address.",
+        "data": {
+          "postcode": "Postcode"
+        }
+      },
+      "address": {
+        "title": "Select address",
+        "description": "Choose the address to monitor.",
+        "data": {
+          "location_ref": "Address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to reach the Blaby website.",
+      "no_addresses": "No addresses were found for that postcode."
+    },
+    "abort": {
+      "already_configured": "That address is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update UK Blaby Council Waste",
+        "description": "Update the postcode or how often collection data is refreshed.",
+        "data": {
+          "postcode": "Postcode",
+          "scan_interval_hours": "Refresh interval (hours)"
+        }
+      },
+      "address": {
+        "title": "Select address",
+        "description": "Choose the address to monitor.",
+        "data": {
+          "location_ref": "Address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to reach the Blaby website.",
+      "no_addresses": "No addresses were found for that postcode."
+    }
+  }
+}
