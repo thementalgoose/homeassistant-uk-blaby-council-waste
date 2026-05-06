@@ -24,6 +24,8 @@ The integration creates a date sensor for each waste type available at the selec
 - `Recycling`
 - `Garden`
 
+![Entities](assets/entities.jpg)
+
 Each sensor uses the next collection date as its main state and also exposes these attributes:
 
 - `next_date` as `d MMM yyyy`
